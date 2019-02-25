@@ -18,9 +18,19 @@
     border: 2px solid #2F3C5E;
     border-radius: 8px;
     margin: 2vw;
-    padding: 8px;
+    padding: 16px;
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.job-description {
-    max-width: 25vw;
+.job-text {
+    text-align: center;
+}
+
+.job img {
+    padding-right: 8px;
+    max-width: 100px;
+    max-height: 100px;
 }

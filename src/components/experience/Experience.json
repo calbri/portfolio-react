@@ -1,0 +1,21 @@
+{
+    "data": [
+        {
+            "title": "Expedia",
+            "subtitle": "Associate Software Development Intern",
+            "description": "I worked across teams building both web and mobile apps for hotel management and discovering new destinations. Within the 3 months I was there, I made improvements to live sites and apps to benefit Expedia's customers and hotel partners in the areas of UI, accessibility and notifications.",
+            "image": "expedia.png"
+        },
+        {
+            "title": "Online Solutions Experts",
+            "subtitle": "Intern",
+            "description": "I assisted with the creation of an e-commerce website for a Brisbane-based mountain bike store, involving work with Magento, Retail Express and debugging PHP.",
+            "image": "ose.png"
+        },
+        {
+            "title": "University of Queensland",
+            "subtitle": "Casual Demonstrator/Typing Assistance",
+            "image": "uq.png"
+        }
+    ]
+}

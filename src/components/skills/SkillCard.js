@@ -13,7 +13,7 @@ class SkillCard extends Component {
           <h3>{ name }</h3>
         </div>
         <div className="skill-image">
-          <img src={images(`./${image}`)} alt="react"/>
+          <img src={images(`./${image}`)} alt={ name }/>
         </div>
       </div>
     );
