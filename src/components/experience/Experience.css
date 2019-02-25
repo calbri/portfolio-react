@@ -1,0 +1,26 @@
+.experience {
+    color: #2F3C5E;
+    background-color: #C9B5B2;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin: 0;
+}
+
+.experience-content {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.job {
+    border: 2px solid #2F3C5E;
+    border-radius: 8px;
+    margin: 2vw;
+    padding: 8px;
+}
+
+.job-description {
+    max-width: 25vw;
+}

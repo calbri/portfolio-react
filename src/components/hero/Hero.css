@@ -1,0 +1,35 @@
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    height: 70vh;
+    background-color: #2F3C5E;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-weight: 200;
+    font-size: 60px;
+}
+
+.hero h3 {
+    font-style: italic;
+}
+
+.hero-subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}

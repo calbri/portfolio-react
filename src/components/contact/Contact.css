@@ -1,0 +1,28 @@
+.contact {
+    background-color: #2F3C5E;
+    margin: 0;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    color: white;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.link {
+    width: 15vw;
+}
+
+.link-logo {
+    font-size: 100px;
+}
+
+.link-logo img {
+    max-height: 100px;
+    max-width: 100px;
+}
