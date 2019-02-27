@@ -9,6 +9,7 @@ class Hero extends Component {
           <h1>Callum Bryson</h1>
           <h3>5th Year Software Engineering/Mathematics at UQ</h3>
         </div>
+        <div className="divider"></div>
         <div className="hero-subtitle">
           Specialising in front-end web and mobile development with React, Android and Kotlin/Java.
         </div>

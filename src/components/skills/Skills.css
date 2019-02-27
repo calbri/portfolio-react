@@ -4,11 +4,11 @@ body {
 }
 
 .skills {
-    background-color: #7A8CBA;
+    background-color: #DFF2D8;
     margin: 0;
     padding-top: 5vh;
     padding-bottom: 5vh;
-    color: #2F3C5E;
+    color: #222222;
 }
 
 .skills-container {
@@ -45,7 +45,7 @@ body {
 .skill-information button {
     border: 0;
     border-radius: 4px;
-    background-color: #C9B5B2;
+    background-color: #C6DEA6;
 }
 
 .skill {
@@ -55,7 +55,7 @@ body {
     border-radius: 8px;
 }
 
-.skill-image img {
+.skill-image {
     max-width: 100px;
     max-height: 100px;
 }

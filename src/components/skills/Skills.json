@@ -3,7 +3,7 @@
         {
             "name": "React",
             "description": "I have experience both building my own full-stack websites using React, and maintaining large, commercial sites connected to various APIs and microservices.",
-            "image": "react.png"
+            "image": "react.svg"
         },
         {
             "name": "Kotlin/Java",

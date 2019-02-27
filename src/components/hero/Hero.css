@@ -1,9 +1,10 @@
 .hero {
     display: flex;
     justify-content: space-around;
-    align-items: stretch;
-    height: 70vh;
-    background-color: #2F3C5E;
+    align-items: center;
+    height: 100vh;
+    background-color: #E0FBFC;
+    color: #222222;
     margin: 0;
     padding: 0;
 }
@@ -32,4 +33,12 @@
     align-items: center;
     align-content: center;
     text-align: center;
+}
+
+.divider {
+    height: 80%;
+    width: 1px;
+    border: .5px solid #222222;
+    background: #222222;
+    border-radius: 5px;
 }

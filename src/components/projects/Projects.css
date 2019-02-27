@@ -1,9 +1,9 @@
 .projects {
-    background-color: #7A8CBA;
+    background-color: #DFF2D8;
     margin: 0;
     padding-top: 5vh;
     padding-bottom: 5vh;
-    color: #2F3C5E
+    color: #222222
 }
 
 .projects-content {
@@ -16,8 +16,8 @@
 
 .project {
     color: white;
-    background-color: #2F3C5E;
-    border: 2px solid #2F3C5E;
+    background-color: #222222;
+    border: 2px solid #222222;
     border-radius: 8px;
     margin: 2vw;
     padding: 16px;
