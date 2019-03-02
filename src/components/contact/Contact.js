@@ -4,11 +4,13 @@ import githubLogo from '../../res/gh.png'
 import linkedInLogo from '../../res/li.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import Terminal from '../terminal/Terminal';
 
 class Contact extends Component {
   render() {
     return (
       <div className="contact">
+        <Terminal input ="load_contact.sh" />
         <div className="contact-title">
           <h2>Contact Me</h2>
         </div>

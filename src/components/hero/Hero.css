@@ -3,8 +3,8 @@
     justify-content: space-around;
     align-items: center;
     height: 100vh;
-    background-color: #E6E1C5;
-    color: #222222;
+    background-color: #363946;
+    color: #B1B6A6;
     margin: 0;
     padding: 0;
 }
@@ -16,15 +16,15 @@
     align-items: center;
     align-content: center;
     text-align: center;
+    width: 40vw;
 }
 
 .hero h1 {
-    font-weight: 200;
-    font-size: 60px;
+    font-size: 2.4em;
 }
 
 .hero h3 {
-    font-style: italic;
+    font-weight: 100;
 }
 
 .hero-subtitle {
@@ -38,7 +38,7 @@
 .divider {
     height: 80%;
     width: 1px;
-    border: .5px solid #222222;
-    background: #222222;
+    border: .5px solid #B1B6A6;
+    background: #B1B6A6;
     border-radius: 5px;
 }

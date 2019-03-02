@@ -2,16 +2,19 @@
     "data": [
         {
             "name": "React",
+            "package": "npm install react",
             "description": "I have experience both building my own full-stack websites using React, and maintaining large, commercial sites connected to various APIs and microservices.",
             "image": "react.svg"
         },
         {
             "name": "Kotlin/Java",
+            "package": "sudo apt-get install java",
             "description": "I have built and developed various university projects, mobile apps, and backends using a combination of Java and Kotlin; for desktop, web and Android applications.",
             "image": "kotlin.svg"
         },
         {
             "name": "Python",
+            "package": "sudo apt-get install python3",
             "description": "I have built a media player, solved Advent of Code 2017 and developed optimisation programs for operations research coursework in Python.",
             "image": "python.svg"
         }

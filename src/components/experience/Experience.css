@@ -1,7 +1,6 @@
 .experience {
-    color: #222222;
-    background-color: #FCFAFA;
-    padding-top: 5vh;
+    background-color: #363946;
+    color: #B1B6A6;
     padding-bottom: 5vh;
     margin: 0;
 }
@@ -15,8 +14,9 @@
 }
 
 .job {
-    border: 2px solid #2F3C5E;
-    border-radius: 8px;
+    border: 2px solid #B1B6A6;
+    background-color: #696773;
+    color: white;
     margin: 2vw;
     padding: 16px;
     width: 20vw;

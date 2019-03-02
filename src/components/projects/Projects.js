@@ -3,11 +3,13 @@ import './Projects.css'
 
 import operapedia from '../../res/operapedia.png'
 import cc from '../../res/cc.png'
+import Terminal from '../terminal/Terminal';
 
 class Projects extends Component {
   render() {
     return (
       <div className="projects">
+        <Terminal input="load_projects.sh" />
         <div className="projects-title">
           <h2>Projects</h2>
         </div>

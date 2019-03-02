@@ -1,0 +1,30 @@
+.terminal {
+    font-size: 1em;
+    text-align:left;
+    color: white;
+}
+
+.terminal-username {
+    background-color: #819595;
+}
+
+.terminal-directory {
+    background-color: #B1B6A6;
+    color: #363946;
+}
+
+.terminal-arrow {
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+}
+
+.terminal-username-end {
+    background-color: #B1B6A6;
+}
+
+.terminal-username-end .terminal-arrow {
+    background-color: #819595;
+}
+
+.terminal-directory-end .terminal-arrow {
+    background-color: #B1B6A6;
+}

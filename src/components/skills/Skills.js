@@ -4,6 +4,7 @@ import './Skills.css';
 import SkillCard from './SkillCard'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import Terminal from '../terminal/Terminal';
 
 let skillsData = require('./Skills.json').data;
 
@@ -21,6 +22,8 @@ class Skills extends Component {
 
     return (
       <div className="skills">
+        <Terminal input="load_skills.sh" />
+        {selected ? <Terminal input={selected.package} /> : <br />}
         <div className="skills-title">
           <h2>Skills</h2>
         </div>

@@ -4,11 +4,10 @@ body {
 }
 
 .skills {
-    background-color: #DFF2D8;
+    background-color: #696773;
     margin: 0;
-    padding-top: 5vh;
     padding-bottom: 5vh;
-    color: #222222;
+    color: white;
 }
 
 .skills-container {
@@ -34,8 +33,7 @@ body {
 .skill-information {
     display: flex;
     padding: 20px;
-    background-color: white;
-    border-radius: 8px 0 0 8px;
+    background-color: #363946;
 }
 
 .skill-information-text {
@@ -44,15 +42,15 @@ body {
 
 .skill-information button {
     border: 0;
-    border-radius: 4px;
-    background-color: #C6DEA6;
+    background-color: #819595;
+    color: #363946;
 }
 
 .skill {
-    background-color: white;
+    background-color: transparent;
     margin: 1vw;
     padding: 1vw;
-    border-radius: 8px;
+    border: 2px #B1B6A6 dashed;
 }
 
 .skill-image img {
