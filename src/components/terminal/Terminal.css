@@ -5,11 +5,12 @@
 }
 
 .terminal-username {
-    background-color: #819595;
+    background-color: #C6DEA6;
+    color: #363946;
 }
 
 .terminal-directory {
-    background-color: #B1B6A6;
+    background-color: #7EBDC3;
     color: #363946;
 }
 
@@ -18,13 +19,13 @@
 }
 
 .terminal-username-end {
-    background-color: #B1B6A6;
+    background-color: #7EBDC3;
 }
 
 .terminal-username-end .terminal-arrow {
-    background-color: #819595;
+    background-color: #C6DEA6;
 }
 
 .terminal-directory-end .terminal-arrow {
-    background-color: #B1B6A6;
+    background-color: #7EBDC3;
 }

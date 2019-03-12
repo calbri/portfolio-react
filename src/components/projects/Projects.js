@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Projects.css'
 
 import operapedia from '../../res/operapedia.png'
+import site from '../../res/site.png'
 import cc from '../../res/cc.png'
 import Terminal from '../terminal/Terminal';
 
@@ -27,7 +28,7 @@ class Projects extends Component {
               An application for iOS and Android designed to help opera singers learn Italian arias. Built using Flutter and Dart, and using Firebase as a backend for data storage, content streaming and authentication.
             </div>
           </div>
-          <div className="project">
+          <div className="project" style={{backgroundImage: `linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)), url(${site})`}}>
             <div className="project-label">
               <div className="project-title">
                 <h3>This Website</h3>

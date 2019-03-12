@@ -1,5 +1,5 @@
 .projects {
-    background-color: #696773;
+    background-color: #363946;
     margin: 0;
     padding-bottom: 5vh;
     color: white;
@@ -15,7 +15,7 @@
 
 .project {
     color: white;
-    background-color: #363946;
+    background-color: black;
     margin: 2vw;
     padding: 16px;
     width: 25vw;

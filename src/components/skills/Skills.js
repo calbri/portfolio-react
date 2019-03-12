@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import './Skills.css';
 import SkillCard from './SkillCard'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import Terminal from '../terminal/Terminal';
 
 let skillsData = require('./Skills.json').data;
@@ -29,36 +26,23 @@ class Skills extends Component {
         </div>
         <div className={"skills-container"}>
           <div className="skills-content">
-            {skillsData.map((skill) => {
-              return <SkillCard
-                key={skill.name}
-                skill={skill}
-                myClick={() => {
-                  this.setState({
-                    selected: skill
-                  })
-                }}
-              />
-            })}
+            {!selected ?
+              skillsData.map((skill) => {
+                return <SkillCard
+                  key={skill.name}
+                  skill={skill}
+                  myClick={() => {
+                    this.setState({
+                      selected: skill
+                    })
+                  }}
+                />
+              })
+              : <SkillCard
+                key={selected.name}
+                skill={selected}
+              />}
           </div>
-
-          <ReactCSSTransitionGroup
-            transitionName="example"
-            transitionEnterTimeout={500}
-            transitionLeaveTimeout={300}>
-            {selected && <div key="1" className="skill-information">
-              <button onClick={() => {this.setState({
-                selected: null
-              })}}>
-                <FontAwesomeIcon icon={faArrowRight} color="#2F3C5E" />
-              </button>
-              <div className="skill-information-text">
-                {this.state.selected.description}
-              </div>
-
-            </div>}
-          </ReactCSSTransitionGroup>
-
         </div>
       </div>
     );

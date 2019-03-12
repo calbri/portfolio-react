@@ -4,7 +4,7 @@ body {
 }
 
 .skills {
-    background-color: #696773;
+    background-color: #363946;
     margin: 0;
     padding-bottom: 5vh;
     color: white;
@@ -50,7 +50,12 @@ body {
     background-color: transparent;
     margin: 1vw;
     padding: 1vw;
-    border: 2px #B1B6A6 dashed;
+    border: 2px white dashed;
+}
+
+.skill-title h3 {
+    margin: 0;
+    margin-bottom: 10px;
 }
 
 .skill-image img {

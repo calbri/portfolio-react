@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+
 .hero {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-content: stretch;
     align-items: center;
     height: 100vh;
-    background-color: #363946;
-    color: #B1B6A6;
+    background-color: black;
+    color: #7EBDC3;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 .hero-title {
@@ -16,7 +20,12 @@
     align-items: center;
     align-content: center;
     text-align: center;
-    width: 40vw;
+    min-width: 40vw;
+    margin-right: 5vw;
+    z-index: 99;
+    background-color: rgba(0,0,0, 0.5);
+    border: 1px solid #7EBDC3;
+    min-height: 20vh;
 }
 
 .hero h1 {
@@ -27,18 +36,51 @@
     font-weight: 100;
 }
 
+.hero-canvas {
+    position: absolute;
+    width: 105vw;
+    height: 105vh;
+    top: -5vh;
+    left: -5vw;
+    word-break: break-all;
+    overflow: hidden;
+    opacity: 0.2;
+    line-height: 2em;
+    user-select: none;
+}
+
+.grid-row {
+    word-break: initial;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: clip;
+}
+
+.hero-canvas .grid-element {
+    display: inline;
+    font-size: 3em;
+    color: white;
+    font-family: 'Cutive Mono', monospace;
+}
+
 .hero-subtitle {
     display: flex;
+    width: 40vw;
+    margin-left: 5vw;
     justify-content: center;
     align-items: center;
     align-content: center;
     text-align: center;
+    z-index: 99;
+    font-size: 1.5em;
+    background-color: rgba(0,0,0, 0.5);
 }
 
 .divider {
     height: 80%;
     width: 1px;
-    border: .5px solid #B1B6A6;
-    background: #B1B6A6;
+    border: .5px solid #7EBDC3;
+    background: #7EBDC3;
     border-radius: 5px;
+    z-index: 99;
 }
